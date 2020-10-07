@@ -8,25 +8,25 @@ Today, Linkedin shows a ranked list of suitable candidates to the recruiters who
 
 In 2018, Joy Buolamwini was a graduate student studying at M.I.T Media lab. She was working on a project for which she used Artificial Intelligence-powered facial recognition software. The software could not recognize her dark skin. Joy had to rely on her white roommate for authentication by the facial recognition software. Later she used a white facial mask for authentication by the AI software.
 
-![joy](.\/images\/joy_white_mask.png)
+![joy](./images/joy_white_mask.png)
 
  (Image credit: https://time.com/)
 
 [Joy researched](https://time.com/5520558/artificial-intelligence-racial-gender-bias/) gender recognition using face using machine learning algorithms by companies like Amazon, Microsoft and IBM, etc. As reported in the Time article, these machine learning algorithms performed very well on light-skinned males (the error rate was less than 1%). On black-skinned females, the error rate went up to 35%. A more astonishing fact is, the big giant’s machine learning algorithms could not predict the gender of famous personalities like Michelle Obama, Oprah Winfrey, Serena Williams among others.
 
-![joy](.\/images\/gender_bias.png)
+![joy](./images/gender_bias.png)
 
-![img](.\/images\/michelle_obama.png)
+![img](/images/michelle_obama.png)
 
-![imp](.\/images\/serena_williams.png)
+![imp](./images/serena_williams.png)
 
-![joy](.\/images\/oprah_winfrey.png)
+![joy](./images/oprah_winfrey.png)
 
 (Image credit: https://time.com/)
 
 As reported by [bbc](https://www.bbc.com/news/technology-33347866) in 2015, Google photo app mistakenly labelled an African American couple as Gorilla. After they reported the incident, Google apologised for the mistake.
 
-![google photo app](.\/images\/google_photo.jpg)
+![google photo app](./images/google_photo.jpg)
 
 (Image credit: https://www.bbc.com/)
 
