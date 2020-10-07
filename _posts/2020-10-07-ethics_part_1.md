@@ -8,25 +8,25 @@ Today, Linkedin shows a ranked list of suitable candidates to the recruiters who
 
 In 2018, Joy Buolamwini was a graduate student studying at M.I.T Media lab. She was working on a project for which she used Artificial Intelligence-powered facial recognition software. The software could not recognize her dark skin. Joy had to rely on her white roommate for authentication by the facial recognition software. Later she used a white facial mask for authentication by the AI software.
 
-![joy](.\/images\/joy_white_mask.png)
+![joy](/images/joy_white_mask.png)
 
  (Image credit: https://time.com/)
 
 [Joy researched](https://time.com/5520558/artificial-intelligence-racial-gender-bias/) gender recognition using face using machine learning algorithms by companies like Amazon, Microsoft and IBM, etc. As reported in the Time article, these machine learning algorithms performed very well on light-skinned males (the error rate was less than 1%). On black-skinned females, the error rate went up to 35%. A more astonishing fact is, the big giant’s machine learning algorithms could not predict the gender of famous personalities like Michelle Obama, Oprah Winfrey, Serena Williams among others.
 
-![joy](.\/images\/gender_bias.png)
+![joy](/images/gender_bias.png)
 
-![img](.\/images\/michelle_obama.png)
+![joy](/images/michelle_obama.png)
 
-![imp](.\/images\/serena_williams.png)
+![joy](/images/serena_williams.png)
 
-![joy](.\/images\/oprah_winfrey.png)
+![joy](/images/oprah_winfrey.png)
 
 (Image credit: https://time.com/)
 
 As reported by [bbc](https://www.bbc.com/news/technology-33347866) in 2015, Google photo app mistakenly labelled an African American couple as Gorilla. After they reported the incident, Google apologised for the mistake.
 
-![google photo app](.\/images\/google_photo.jpg)
+![google photo app](/images/google_photo.jpg)
 
 (Image credit: https://www.bbc.com/)
 
@@ -37,6 +37,13 @@ Bias is an overloaded term. In this blog post, bias does not mean underfitting, 
 ### **Bias in Data and Machine learning models**
 
 As Kate Crawford  informs in her 2017 NIPS keynote, the biases in its various forms will affect the individuals, groups and society by hurting the allocation of resources, misrepresenting the identities and wrong classifications.
+
+
+```python
+#hide
+from IPython.display import YouTubeVideo
+YouTubeVideo('fMym_BKWQzk', width=800, height=400)
+```
 
 A bank’s denying mortgage or insurance to applicants based on age, gender or race is an example of the ML model’s impact on the allocation of resources.
 
@@ -72,4 +79,4 @@ This can occur when we use a misrepresented dataset for testing or benchmarking.
 #### Deployment Bias
 If the purpose for which we do modelling differs from the purpose for which it is used, then it will lead to deployment Bias. If the data distribution in training differs from the data distribution in production, then also it leads to deployment bias. An Example, COMPAS does risk scoring to predict if a person will commit a crime. If a judge uses the score in ‘off label’ ways in various steps of the judiciary process, then it is deployment bias.
 
-We discussed various types of biases which can occur at different life stages of a machine learning problem. We also reasoned the impact of bias on individuals, groups and society - Allocation of resources, representation of identities and classification. **_In the second part, we will examine how to mitigate bias and improve the fairness of our data and models._** It is not always possible to make the data or model 100% fair. But as a data scientist, **we should try our best to restore the balance and create a fair world.**
+We discussed various types of biases which can occur at different life stages of a machine learning problem. We also reasoned the impact of bias on individuals, groups and society - Allocation of resources, representation of identities and classification. **_In the second part, we will examine how to mitigate bias and improve the fairness of our data and models._** It is not always possible to make the data or model 100% fair. But as a data scientist, **we should try our best to restore the balance and help create a fair world.**
