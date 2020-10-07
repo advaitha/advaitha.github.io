@@ -8,17 +8,12 @@ Today, Linkedin shows a ranked list of suitable candidates to the recruiters who
 
 In 2018, Joy Buolamwini was a graduate student studying at M.I.T Media lab. She was working on a project for which she used Artificial Intelligence-powered facial recognition software. The software could not recognize her dark skin. Joy had to rely on her white roommate for authentication by the facial recognition software. Later she used a white facial mask for authentication by the AI software.
 
-<<<<<<< HEAD
 ![joy](/images/joy_white_mask.png)
-=======
-![joy](./images/joy_white_mask.png)
->>>>>>> d9043370c3c9a8cbdef1ca2a37077f4e7e5a1e25
 
  (Image credit: https://time.com/)
 
 [Joy researched](https://time.com/5520558/artificial-intelligence-racial-gender-bias/) gender recognition using face using machine learning algorithms by companies like Amazon, Microsoft and IBM, etc. As reported in the Time article, these machine learning algorithms performed very well on light-skinned males (the error rate was less than 1%). On black-skinned females, the error rate went up to 35%. A more astonishing fact is, the big giant’s machine learning algorithms could not predict the gender of famous personalities like Michelle Obama, Oprah Winfrey, Serena Williams among others.
 
-<<<<<<< HEAD
 ![joy](/images/gender_bias.png)
 
 ![joy](/images/michelle_obama.png)
@@ -26,25 +21,12 @@ In 2018, Joy Buolamwini was a graduate student studying at M.I.T Media lab. She 
 ![joy](/images/serena_williams.png)
 
 ![joy](/images/oprah_winfrey.png)
-=======
-![joy](./images/gender_bias.png)
-
-![img](/images/michelle_obama.png)
-
-![imp](./images/serena_williams.png)
-
-![joy](./images/oprah_winfrey.png)
->>>>>>> d9043370c3c9a8cbdef1ca2a37077f4e7e5a1e25
 
 (Image credit: https://time.com/)
 
 As reported by [bbc](https://www.bbc.com/news/technology-33347866) in 2015, Google photo app mistakenly labelled an African American couple as Gorilla. After they reported the incident, Google apologised for the mistake.
 
-<<<<<<< HEAD
 ![google photo app](/images/google_photo.jpg)
-=======
-![google photo app](./images/google_photo.jpg)
->>>>>>> d9043370c3c9a8cbdef1ca2a37077f4e7e5a1e25
 
 (Image credit: https://www.bbc.com/)
 
@@ -57,11 +39,10 @@ Bias is an overloaded term. In this blog post, bias does not mean underfitting, 
 As Kate Crawford  informs in her 2017 NIPS keynote, the biases in its various forms will affect the individuals, groups and society by hurting the allocation of resources, misrepresenting the identities and wrong classifications.
 
 
-```python
-#hide
-from IPython.display import YouTubeVideo
-YouTubeVideo('fMym_BKWQzk', width=800, height=400)
-```
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/fMym_BKWQzk" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 
 A bank’s denying mortgage or insurance to applicants based on age, gender or race is an example of the ML model’s impact on the allocation of resources.
 
