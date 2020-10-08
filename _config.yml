@@ -11,8 +11,10 @@ description: A blog on Data science and machine learning
 github_username: advaitha
 
 # Email and twitter are optional:
-email:
-twitter_username:
+email: tulasiram.gunipati@gmail.com
+twitter_username: @Iluvds1
+linkedin: https://www.linkedin.com/in/thulasiramg/
+
 
 # Set this to true to get LaTeX math equation support
 use_math:

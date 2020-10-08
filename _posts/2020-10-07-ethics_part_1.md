@@ -30,7 +30,7 @@ As reported by [bbc](https://www.bbc.com/news/technology-33347866) in 2015, Goog
 
 (Image credit: https://www.bbc.com/)
 
-As elaborated in the above examples, building machine learning systems comes with great responsibilities. This blog post talks about ethics and fairness when dealing with data and building machine learning models. **This blog post is the first in a series of ten parts.** In this first post, we will talk about bias and why it exists in data and machine learning models. In the second post, we will look at how to mitigate the bias in the data and improve the fairness of the ML models.
+As elaborated in the above examples, building machine learning systems comes with great responsibilities. This blog post talks about ethics and fairness when dealing with data and building machine learning models. **This blog post is the first in a series of three parts.** In this first post, we will talk about bias and why it exists in data and machine learning models. In the second post, we will look at how to mitigate the bias in the data and improve the fairness of the ML models.
 
 Bias is an overloaded term. In this blog post, bias does not mean underfitting, that is when a machine learning algorithm cannot capture the underlying patterns in the data. In this blog, bias means, “inclination or prejudice for or against one person or group, especially in a way considered to be unfair” as defined in the Oxford dictionary.
 
