@@ -1,7 +1,9 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hello and welcome to my blog on Data Science and Machine learning. Here I will write about my thoughts, lessons learnt, tutorials, books I read, podcasts I listen, videos I see, topics I discuss with my colleagues on Data Science and Machine learning. Write to tulasiram.gunipati@gmail.com for feedback and blog requests on any topic related to data science.
 
-![Image of fast.ai logo](images/logo.png)
+![Thulasiram Gunipati](images/self.png)
 
-## Ethics and Bias in Data and Machine learning
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+
+
+
+
