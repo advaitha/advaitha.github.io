@@ -2,7 +2,7 @@
 
 Amazon wanted to create an automated recruitment tool. The purpose of the tool was to take as input, the resumes of applicants and output the top profiles for employment. Excellent use of machine learning for a real-world application. Yes, but their recruitment tool did not like women.
 
-Amazon for training their machine learning algorithm used the resumes submitted by applicants in the past 10 years. As reported by [Reuters](https://time.com/5520558/artificial-intelligence-racial-gender-bias/), the recruitment tool’s machine learning algorithm was penalizing women and was undermining two all-women colleges while returning the top profiles for the job. Amazon scrapped the project and their recruiters claimed that they never used this tool for the intended purpose.
+Amazon for training their machine learning algorithm used the resumes submitted by applicants in the past 10 years. As reported by [Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G), the recruitment tool’s machine learning algorithm was penalizing women and was undermining two all-women colleges while returning the top profiles for the job. Amazon scrapped the project and their recruiters claimed that they never used this tool for the intended purpose.
 
 Today, Linkedin shows a ranked list of suitable candidates to the recruiters who posted a job on the site. How confident are you about the Linkedin’s ranking algorithm for a job posting after reading about Amazon’s resume review tool?
 
