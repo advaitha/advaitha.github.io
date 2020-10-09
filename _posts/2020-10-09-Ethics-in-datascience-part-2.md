@@ -31,7 +31,7 @@ It is difficult to define fairness. There are atleat **21 different mathematical
 Now let us turn our attention to a toy example to see how this works in action. The dataset for this exercise is ‘Loan Prediction’ data provided by Analytics Vidhya for practice. According to their website, The Dream Housing Finance company wishes to automate the loan eligibility process. The company captures historical data like Gender, Married, Dependents, Education, self-employed, LoanAmount etc of the past customers along with Loan_status i.e. if the loan is approved or not. The aim is to look at patterns in the data and decide if the company should provide loan to the customer or not.
 
 The variables in the dataset are:-
-![Data_dictionary](images/data_dictionary.png)
+![Data_dictionary](/images/data_dictionary.png)
 (credit: Analytics Vidhya)
 
 Let us see with a toy machine learning algorithm, what will happen if we are not mitigating the bias and what are the results if bias is mitigated. As this is an exercise done for demonstrating a specific point, I took many shortcuts. For example, here I am not dividing the dataset into train and test. In an actual scenario, we must follow all the machine learning best practices. With that caveat in place, Let’s dive in…
@@ -48,7 +48,7 @@ plt.xlabel('Gender', fontsize=12)
 plt.show()
 ```
 
-![gender](images/gender.png)
+![gender](/images/gender.png)
 
 Now we apply logistic regression model without any constraints to check the overall and protected variable accuracies.
 
@@ -72,11 +72,11 @@ FairlearnDashboard(sensitive_features = gender,
 
 Recall means "what proportion of actual positives was identified correctly?''. Here positives means loans approved. Out of the all the loans approved, how many of them were identified correctly. **The recall for the complete data is 79.2% and the disparity in recall for both the groups is 34.9%.**
 
-![](images/recall_before.png)
+![](/images/recall_before.png)
 
 The disparity in predictions - The difference in number of instances classified as postivie for both the groups is 30%. This means if this algorithm is used for deciding if a loan should be provided then the **probability of women getting loans is 30% lesser than for men.**
 
-![](images/selection_ratepng.png)
+![](/images/selection_ratepng.png)
 
 Now Let us use an algorithm for mitigation. This algorithm will take into account a constraint - Demographic parity, while optimizing the cost function. Demographic parity means that the two different groups should get equal number of loans. The algorithm results should not depend on the protective attribute i.e. Gender. Lets see the results on the same Logistic regression algorithm using Demographic parity.
 
@@ -99,7 +99,7 @@ selection_rate_group_summary(y_true, y_pred_mitigated, sensitive_features = gend
 
 There is a slight dip in accuracy but the disparity between both the groups reduced from 19% to less than 1%
 
-![](images/accuracy.png)
+![](/images/accuracy.png)
 
 Lets check the performance on Recall with the mitigated algorithm
 
@@ -112,7 +112,7 @@ FairlearnDashboard(sensitive_features = gender,
 
 The **Recall for the mitigated algorithm is 86.1% compared to 79.2% for the inital algorithm. The disparity reduced from more than 34% to 1.15%.** A win-win situation for any data scientist. This is a toy example and in a real life scenario the recall of the debiased algorithm may be less than the original algorithm. As mentioned earlier this needs to be deliberated with all the stakeholders and an appropriate decision should be taken.
 
-![](images/final_results.png)
+![](/images/final_results.png)
 
 ### Summary
 
