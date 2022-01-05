@@ -27,21 +27,34 @@ remove_even_error(my_list)
 
 My initial thought was modulus operator is not working as expected.
 I checked the modulus of a few numbers and it was working fine. \
-![modulus](/images/modulus_1.png)
+
+```python
+-40 % 2
+```
+Output was 0
+
+```python
+-73 % 2
+```
+Output was 1
+
 
 Even though the modulus is working fine, I was not able to remove the even numbers from the list.
 
 I googled what might the reason, and found something interesting about modulus operator.
 
 Guess what is the result of `-5 % 4` without  reading further?
-Astonishingly it is 3. \
-![modulus_2](/images/modulus_2.png)
+Astonishingly it is 3. 
+
 
 The modulus operator works as follows in python \
+
 ![modulus_git](/images/modulus_git.png) \
+
 (Image Credit: https://stackoverflow.com/questions/3883004/the-modulo-operation-on-negative-numbers-in-python)
 
 But this was not happening in my case. I used a bunch of print statements to check what was going wrong. After spending some time, I found the reason. \
+
 ![function_error](/images/function_error.png)
 
 I was modifying the list itself which I was iterating over. 
@@ -68,7 +81,11 @@ def remove_even(lst):
     return [~number for number in lst if number % 2 == 0]
 ```
 
-In my next challenge, I will be tackling a problem due to which I lost a job oppurtunity in the past. More about it in my next challenge.
+Two important things I learnt from this challenge:-
+* **Behaviour of modulus operator in python**
+* **To change perspective when you are struck for a long time. I was very sure that issue was with the modulus operator. At last the issue turned out to be with modifying the list itself.**
+
+In my next challenge, I will be tackling a *_challenge due to which I lost a job oppurtunity in the past._* More about it in my next challenge.
 
 
 
