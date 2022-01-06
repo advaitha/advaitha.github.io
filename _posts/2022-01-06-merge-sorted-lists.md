@@ -49,7 +49,7 @@ The above code was returning the output \
 
 It is because of the highlighted code. 
 
-![merged_list_error](/images/merged_list_error.png)
+![merged_list_error](/images/merged_sort_error.png)
 
 
 
@@ -58,7 +58,7 @@ After some googling, I understood that the behaviour of the for loop in python i
 
 This image from wikipedia should help understand what is a foreach loop.
 
-![foreach_loop](/images/foreach_loop.png)
+![foreach_loop](/images/foreach_wiki.png)
  
 Then I switched from the for loop to the while loop.
 Here is my updated code which gave the expected result
