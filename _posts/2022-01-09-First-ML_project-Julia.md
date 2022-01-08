@@ -40,7 +40,7 @@ Read the data
 data = CSV.read("telecom_churn.csv",DataFrame)
 ```
 
-![data](j_read_data.png)
+![data](/images/j_read_data.png)
 
 ```julia
 # Check the shape of the data
@@ -52,7 +52,7 @@ println(summary(data))
 # Look at the data types and stats
 describe(telecom_data)
 ```
-![describe](j_describe.png)
+![describe](/images/j_describe.png)
 
 
 ```julia
@@ -87,7 +87,7 @@ I wanted to check the number of unique values in categorical columns.
 ```julia
 countmap(data."state")
 ```
-![Unique states](j_unique.png)
+![Unique states](/images/j_unique.png)
 
 There were 51 unique values in the state column. It means 51 new columns will be added to the data when this column is one-hot encoded.
 
