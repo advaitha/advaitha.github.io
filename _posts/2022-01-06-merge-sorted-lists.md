@@ -1,6 +1,6 @@
 # Challenge 02 - Merge Sorted Lists
 
-I can clearly remembered that day. In in an interview, I was asked to open an IDE and merge two sorted lists. I could not do it in the stipulated time. As you might have guessed, I din't hear back from the interviewer. I am glad to pick it up and now resolve it.
+I can clearly remember that day. In in an interview, I was asked to open an IDE and merge two sorted lists. I could not do it in the stipulated time. As you might have guessed, I din't hear back from the interviewer. I am glad to pick it up and now resolve it.
 
 Objective - Given two sorted lists, merge it into a single sorted list \
 
